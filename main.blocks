@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="gx.8-%rSklmp$T)a=xwA">mySprite</variable><variable type="KIND_SpriteKind" id="sWjZRf2Oe|,mm0J`cujL">Player</variable><variable type="KIND_SpriteKind" id="_0|9^)mb0^/Hs6]vE5F{">Projectile</variable><variable type="KIND_SpriteKind" id="brCx#[n(IOPsmz0%?AC~">Food</variable><variable type="KIND_SpriteKind" id="q-#gz;M%i}#RT1q9~A5Q">Enemy</variable></variables><block type="pxt-on-start" id="(7g_I](Ei^`$XX{Qn5)K" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="@Ic=`SFKw`M;PH))i5[+"><value name="color"><shadow type="colorindexpicker" id="|Eh3#fk*5V}U-H:TE*|F"><field name="index">2</field></shadow></value><next><block type="variables_set" id="6$+T%LmtCDk#1~ZAmpLP"><field name="VAR" id="gx.8-%rSklmp$T)a=xwA">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="lDAeaDJ@+*?@8br^DK/g"><value name="img"><shadow type="screen_image_picker" id="s^0F#uJlg!rd$xB8)#{O"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . 3 3 3 3 3 3 3 . 3 3 . . . 
+. . . 3 . . . . . 3 . . 3 . . . 
+. . . 3 3 3 3 . . 3 . . 3 . . . 
+. . 3 . . . . 3 3 3 . . 3 . . . 
+. . . 3 3 3 . . 3 3 . . 3 . . . 
+. . . . . . 3 3 . 3 3 3 3 . . . 
+. . . . . . . . . 3 3 . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"s^0F#uJlg!rd$xB8)#{O"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="k9^fi|z?Kcy9;Y`BSF-#"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="~bE@~V2ySC%bp0H0`ya_"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id=";_b)uPIU/5Ew;S+r@Dd5"><field name="VAR" id="gx.8-%rSklmp$T)a=xwA">mySprite</field></block></value></block></next></block></next></block></statement></block></xml>
